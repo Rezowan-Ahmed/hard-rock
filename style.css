@@ -17,14 +17,6 @@ body{
     border-radius: 1.5rem;
     padding: 9px 20px;
 }
-
-.btn-privious{
-    background: rgba(255, 255, 255, 0.2);
-    color: #ffffff;
-}
-.navbar-toggler {
-    border: none;
-}
 .search-box{
     position: relative;
 }
@@ -34,8 +26,10 @@ body{
     right: 0;
     height: 100%;
 }
+ul.song-list{
+    list-style: none;
+}
 .single-result{
     background: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
 }
-
