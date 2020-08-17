@@ -1,4 +1,5 @@
 const urlOfApi = 'https://api.lyrics.ovh';
+
 const songNameInput = document.getElementById("songNameInput");
 const formForInputSearch = document.getElementById("formForInputSearch");
 formForInputSearch.addEventListener('submit', e=>{
