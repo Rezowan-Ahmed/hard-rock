@@ -29,8 +29,8 @@ function resultShow(data) {
                         <div class="single-result row align-items-center my-3 p-3">
                     <div class="col-md-9">
                         <h3 class="lyrics-name">${song.title}</h3>
-                        <p class="author lead">Artist: <span>${song.album.title}</span></p>
-                        <p class="author lead">Album: <span>${song.artist.name}</span></p>
+                        <p class="author lead">Artist: <span>${song.artist.name}</span></p>
+                        <p class="author lead">Album: <span>${song.album.title}</span></p>
                     </div>
                     <div class="col-md-3 text-md-right text-center">
                         <button class="btn btn-success"> <span data-artist="${song.artist.name}" data-songTitle="${song.title}"> Get Lyrics </span> </button>
